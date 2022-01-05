@@ -1,0 +1,97 @@
+name: stylo_fashion
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.4
+  carousel_pro: ^1.0.0
+  flutter_swiper : ^1.1.6
+  carousel_slider: ^4.0.0
+  badges: ^2.0.2
+  http: ^0.13.4
+  font_awesome_flutter: ^9.2.0
+  fluttertoast: ^8.0.8
+  custom_radio: ^0.1.2
+  flutter_rating_bar: ^4.0.0
+  page_transition: ^2.0.4
+  flutter_spinkit: ^5.1.0
+  fancy_on_boarding: ^1.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.3"
+
+flutter_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path: "assets/logo/stylo_logo.jpg"
+
+module:
+  androidX: true
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/
+   - assets/logo/
+   - assets/home_slider/
+   - assets/safety_checklist/
+   - assets/logo/stylo_logo.jpg
+   - assets/top_category/
+   - assets/summer_edit/
+   - assets/explore_brands/
+   - assets/kids_apparels/
+   - assets/category_page_slider/
+   - assets/category_explore_category/
+   - assets/in_the_spotlight/
+   - assets/products/
+   - assets/payment_icon/
+   - assets/onboarding_images/
+   - assets/user_profile/
+   - assets/search/
+   - assets/json/
+
+  fonts:
+    - family: Francois One
+      fonts:
+        - asset: fonts/FrancoisOne-Regular.ttf
+          weight: 400
+    - family: Alatsi
+      fonts:
+        - asset: fonts/Alatsi-Regular.ttf
+          weight: 400
+    - family: Kaushan Script
+      fonts:
+        - asset: fonts/KaushanScript-Regular.ttf
+          weight: 400
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+          weight: 400
+    - family: Jost
+      fonts:
+        - asset: fonts/Jost-VariableFont_wght.ttf
+          weight: 400
